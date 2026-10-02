@@ -13,6 +13,10 @@ int main()
 
 
 
+
+
+
+
  #include <stdio.h>
 int main()
 {
@@ -27,6 +31,9 @@ int main()
 
 
 
+
+
+
  #include <stdio.h>
 int main()
 {
@@ -38,3 +45,31 @@ int main()
     return 0;
 }
     
+
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+    float a,b;
+    a=8;
+    b=-19;
+    float c=a/b;
+printf("%f",c);
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
