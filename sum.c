@@ -70,6 +70,21 @@ return 0;
 
 
 
+#include <stdio.h>
+int main()
+{
+    float a,b;
+    a=2;
+    printf("enter b value");
+    scanf("%f",&b);
+printf("division=%.16f",a/b);
+return 0;
+}
+
+
+
+
+
 
 
 
