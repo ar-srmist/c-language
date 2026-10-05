@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int main()
 {
@@ -34,3 +35,23 @@ else{
 }
     return 0;
 }
+
+
+
+
+#include <stdio.h>
+int main()
+{
+float mark, income;
+printf("enter mark and income:");
+scanf("%f %f", &mark, &income);
+if(mark >= 75 &&income <= 600000){
+    printf("eligible for scholership.\n");
+} 
+else{
+    printf("not eligible for scholership.\n");
+}
+    return 0;
+}
+
+
