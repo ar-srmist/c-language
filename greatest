@@ -15,3 +15,22 @@ else{
 }
     return 0;
 }
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+int mark1, mark2, mark3;
+printf("enter marks for 3 subjects:");
+scanf("%d %d %d", &mark1, &mark2, &mark3);
+if(mark1 >= 40 &&mark2 >= 40 &&mark3 >= 40){
+    printf("pass all subjects.\n");
+} 
+else{
+    printf("fass in one or more subjects.\n");
+}
+    return 0;
+}
